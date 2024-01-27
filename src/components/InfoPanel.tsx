@@ -13,7 +13,7 @@ export default function InfoPanel({ title, body, image, styling }: Params) {
       }`}
     >
       <div className="relative w-24 aspect-square rounded-full bg-DarkViolet top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 flex p-6 lg:left-0 lg:translate-x-0">
-        <img src={image} />
+        <img src={image} alt="" />
       </div>
       <div className="flex flex-col gap-4">
         <h1 className="font-bold text-[1.6rem] text-VeryDarkViolet my-2">
