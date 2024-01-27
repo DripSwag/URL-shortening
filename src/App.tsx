@@ -73,9 +73,14 @@ function App() {
         </div>
       </section>
       <section className="py-32 bg-DarkViolet flex flex-col justify-center items-center gap-4 relative lg:gap-8">
-        <img src={MobileShapes} className="absolute h-full right-0 lg:hidden" />
+        <img
+          src={MobileShapes}
+          alt="Shapes"
+          className="absolute h-full right-0 lg:hidden"
+        />
         <img
           src={DesktopShapes}
+          alt="Shapes"
           className="absolute h-full right-0 hidden lg:inline"
         />
         <h2 className="font-bold text-white text-[1.8rem] z-10 lg:text-6xl">
@@ -84,7 +89,7 @@ function App() {
         <button className="PrimaryBtn text-lg z-10">Get Started</button>
       </section>
       <footer className="bg-VeryDarkViolet flex justify-center">
-        <div className="max-w-6xl py-8 text-white flex flex-col gap-8 items-center text-center w-full lg:flex-row lg:justify-center lg:text-left lg:items-start lg:gap-24">
+        <div className="max-w-6xl py-16 text-white flex flex-col gap-8 items-center text-center w-full lg:flex-row lg:justify-center lg:text-left lg:items-start lg:gap-24">
           <h2 className="font-bold text-4xl my-4 grow">Shortly</h2>
           <div className="flex flex-col gap-2 FooterLinks">
             <h3 className="py-2 font-bold">Features</h3>

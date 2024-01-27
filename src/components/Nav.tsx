@@ -45,7 +45,7 @@ function Mobile() {
 
 function Desktop() {
   return (
-    <div className="hidden w-full lg:flex lg:items-center lg:gap-4 ml-4">
+    <div className="hidden w-full lg:flex lg:items-center lg:gap-8 ml-4">
       <a
         href="#"
         className="text-Gray font-bold text-sm hover:text-VeryDarkViolet"
@@ -64,7 +64,7 @@ function Desktop() {
       >
         Resources
       </a>
-      <div className="ml-auto flex gap-4 items-center">
+      <div className="ml-auto flex gap-8 items-center">
         <a
           href="#"
           className="text-Gray font-bold text-sm hover:text-VeryDarkViolet"
@@ -82,7 +82,7 @@ function Desktop() {
 export default function Nav() {
   return (
     <nav className="h-max px-4 py-8 flex items-center relative w-full max-w-6xl">
-      <p className="text-VeryDarkViolet font-bold text-xl lg:text-3xl">
+      <p className="text-VeryDarkViolet font-bold text-xl lg:text-3xl lg:mr-6">
         Shortly
       </p>
       <Mobile />

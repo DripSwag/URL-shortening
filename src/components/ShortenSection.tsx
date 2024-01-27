@@ -58,10 +58,12 @@ export default function ShortenSection() {
       >
         <img
           src={MobileBackground}
+          alt="Shapes"
           className="h-full absolute z-0 top-[-20%] right-[-10%] lg:hidden"
         />
         <img
           src={DesktopBackground}
+          alt="Shpaes"
           className="h-full z-0 hidden top-0 w-full left-0 lg:absolute lg:inline"
         />
         <input

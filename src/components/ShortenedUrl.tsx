@@ -17,11 +17,11 @@ export default function ShortenedUrl({ original, shortened }: Params) {
   }
 
   return (
-    <div className="rounded-lg flex flex-col gap-4 bg-white py-4 items-center lg:flex-row">
+    <div className="rounded-lg flex flex-col gap-4 bg-white py-4 items-start lg:flex-row lg:items-center">
       <p className="px-4 text-VeryDarkBlue">{original}</p>
       <div className="h-0.5 w-full bg-[#f0f1f6] lg:hidden"></div>
       <p className="px-4 text-Cyan lg:ml-auto">{shortened}</p>
-      <div className="px-4">
+      <div className="px-4 w-full lg:w-auto">
         <button
           className={`${
             clicked
